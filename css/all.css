@@ -1,0 +1,140 @@
+body, dl, dd, h1, h2, h3, h4, h5, h6, p, form{margin:0;} 
+
+ ol,ul{margin:0; padding:0;list-style: none;}
+
+/* css start */
+*{
+   
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(231, 240, 233);
+    margin: 0 auto;
+}
+.header{
+    height: 74px;
+    background-color: black;
+    color: #50ff44;
+    font-family: Roboto;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ad1{
+    background-image: url(../images/ad-1.png);
+    width: 610px;
+    height: 120px;
+    margin:25px auto;
+}
+
+.content{
+    max-width: 610px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.comic-cover{
+    background-image: url(../images/comic\ cover.png);
+    border: 4px solid black;
+    height: 438px;
+    width: 292px;
+    background-size: cover;
+    
+}
+.comic-info{
+    width: 330px;
+    height: 438px;
+    font-family: Roboto;
+}
+.title{
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    padding:4px 22px;
+}
+.about{
+    display: flex;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+.subheading-box,.content-box{
+    font-family: Roboto;
+}
+.subheading{
+    font-weight: bold;
+    margin: 10px 22px ;
+}
+.sub-content{
+    font-weight: normal;
+    margin: 10px 0 ;
+}
+.sub-content i{
+    margin-right:4px;
+}
+.summary{
+    margin-top: 14px;
+    margin-left: 22px;
+}
+.summary h4{
+    padding-top: 6px;
+}
+.summary p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 24px;
+}
+.ad2{
+    background-image: url(../images/ad-2.png);
+    width: 610px;
+    height: 120px;
+    margin:25px auto;
+}
+.chapter-part{
+    margin: 10px auto;
+    width: 610px;
+}
+.chapter-title{
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    text-align: center;
+    width: 181px;
+    padding: 8px 24px;
+}
+.chapter-box{
+    border: 4px solid black;
+    background-color: #FFFFFF;
+    padding: 10px 0;
+}
+.chapter-box>ul>li{
+    line-height: 24px;
+    padding: 8px 20px;
+    font-family: Roboto;
+    font-weight: bold;
+}
+.chapter-box>ul>li:hover{
+    background-color: black;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.chapter-box>ul>li>span{
+    background-color: #50ff44;
+    font-size: 14px;
+    padding: 2px 12px;
+    margin-left: 16px;
+    color: #000;
+}
+.ad3{
+    background-image: url(../images/ad-3.png);
+    width: 610px;
+    height: 120px;
+    margin:25px auto;
+}
+.ad1:hover,.ad2:hover,.ad3:hover{
+    cursor: pointer;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
